@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="./app/styles.scss">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+  </style>
+
+  <title>CV | Jorge Córcoles</title>
+</head>
+<body>
+  <header>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li id="goToPersonalInfo" class="menu__navigation-item">
+          <p>Personal Info</p>
+        </li>
+        <li id="goToExperience" class="menu__navigation-item">
+          <p>Experience</p>
+        </li>
+        <li id="goToSkills" class="menu__navigation-item">
+          <p>Skills</p>
+        </li>
+        <li id="goToStudies" class="menu__navigation-item">
+          <p>Studies</p>
+        </li>
+        <li id="goToLanguages" class="menu__navigation-item">
+          <p>Languages</p>
+        </li>
+      </ul>
+    </nav>
+  </header> 
+  <!--INFORMACIÓN-->
+  <section>
+    
+    <article id="mainInfo" class="container__main-info">
+      <div class="container__main-info-image">
+        <img class="imagecv" src="../src/app/assets/IMG_20190803_150142.jpg" alt="pic">
+      </div>
+      <div class="container__main-info-job">
+      <div id="classJob" class="container__main-info-data">
+        <h1 id="name" class="container__title--name"></h1>
+      </div>
+
+      <div id="personalInfoData" class="personal__class--icon">
+        <div class="class_icon">
+          <ul>
+            <p><span class="fas fa-envelope-open-text"></span></p>
+            <p id="email"></p>
+          </ul>  
+        </div>
+        <div class="class_icon">
+          <ul>
+            <p><span class="fas fa-phone-volume"></span></p>
+            <p id="phone"></p>
+          </ul>  
+        </div>
+        <div class="class_icon">
+          <ul>
+            <p><span class="fas fa-map-marker-alt"></span></p>
+            <p id="address"></p>
+          </ul>  
+        </div>
+        <div class="class_icon">
+          <ul>
+            <p><span class="fas fa-calendar-alt"></span></p>
+            <p id="birth"></p>
+          </ul>  
+        </div>
+      </div>
+    </div>
+    </article>
+
+    <!--about-->
+
+    <article id="personalInfo" class="container__personal-info">
+      <h2 id="personalInfoTitle" class="container__title">About me</h2>
+      <div id="personalInfoData">
+        <div class="class_icon">
+        <p id="aboutMe"></p>
+      </div>
+    </article>
+
+    <div class="container">
+
+    <div class="row__one">
+      <!--experience-->
+   
+    <article id="experience" class="container__experience">
+      <h2 id="experienceTitle" class="container__title">Experience</h2>
+    </article>
+
+    <!--studies-->
+
+    <article id="studies" class="container__studies">
+      <h2 id="studiesTitle" class="container__title">Studies</h2>
+    </article>
+
+    </div>
+
+
+
+    <div class="row__two">
+    <!--languages-->
+
+    <article id="languages" class="container__languages">
+      <h2 id="languageTitle" class="container__title">Languages</h2>
+      <ul class="container__title--list">
+        <li id="languageName"></li>
+        <li id="languageCertification"></li>
+        <li id="languageLevel"></li>
+      </ul>
+    </article>
+
+    <!--skills-->
+
+    <article id="skills">
+      <h2 id="skillsTitle" class="container__title">Skills</h2>
+      <div id="skills__progress-bar">
+        <ul id="skills__progreso"> 
+        </ul>
+      </div>  
+    </article>
+
+    </div>
+  </div>
+
+    
+
+    
+  </section>
+
+  <!--footer-->
+
+  <footer>
+    <div>
+      <ul>
+        <li><a href="http://upgrade-hub.com"><img src="../src/app/assets/artboard.png" alt="" width="21%"></a></li>
+      </ul>
+    </div>
+    <nav>
+    <ul>
+      <li><a href="http://gitlab.com/jorgecm99"><img src="../src/app/assets/file_type_gitlab_icon_130579.png" alt=""></a></li>
+      <li><a href="http://linkedin.com/jorgecm99"><img src="../src/app/assets/in_linked_linkedin_media_social_icon_124259.png" alt=""></a></li>
+      <li><a href="http://facebook.com/jorgecm99"><img src="../src/app/assets/iconfinder-social-media-applications-1facebook-4102573_113807.png" alt=""></a></li>
+      <li><a href="http://twitter.com/jorgecm99"><img src="../src/app/assets/iconfinder-social-media-applications-6twitter-4102580_113802.png" alt=""></a></li>
+    </ul>
+    </nav>
+  </footer>
+
+  <footer class="final_footer">
+    <div>
+      <ul>
+        <li><a href="http://upgrade-hub.com"></a>UpGrade <span>|</span> hub</li>
+        <li>Calle Orense 69, Madrid 28020</li>
+        <li>xxx xxx xxx</li>
+        <li><a href="info@upgrade-hub.com">info@upgrade-hub.com</a></li>
+      </ul>
+    </div>
+    <nav>
+    <ul>
+      <li><a href="http://gitlab.com/jorgecm99"><img src="../src/app/assets/file_type_gitlab_icon_130579.png" alt="">gitlab.com/jorgecm99</a></li>
+      <li><a href="http://linkedin.com/jorgecm99"><img src="../src/app/assets/in_linked_linkedin_media_social_icon_124259.png" alt="">linkedin.com/jorgecm99</a></li>
+      <li><a href="http://facebook.com/jorgecm99"><img src="../src/app/assets/iconfinder-social-media-applications-1facebook-4102573_113807.png" alt="">facebook.com/jorgecm99</a></li>
+      <li><a href="http://twitter.com/jorgecm99"><img src="../src/app/assets/iconfinder-social-media-applications-6twitter-4102580_113802.png" alt="">twitter.com/jorgecm99</a></li>
+    </ul>
+    </nav>
+  </footer>
+</body>
+</html>
